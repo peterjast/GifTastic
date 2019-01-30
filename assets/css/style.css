@@ -1,0 +1,60 @@
+body {
+    background: url(../../images/clapperboard.jpg);
+font-family: 'Abril Fatface', cursive;
+}
+
+#container {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    padding: 2px;
+    border-left: 5px solid grey;
+    border-right: 5px solid grey;
+    background: url("../../images/movie.jpg");
+}
+
+.movie{
+    border: solid grey 3px;
+    margin: 10px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 20px;
+}
+
+#button :hover {
+    cursor: pointer;
+}
+
+#submitButton:hover {
+    cursor: pointer;
+}
+
+img.gif:hover {
+    cursor: pointer;
+}
+
+h1 {
+    margin-top: 5%;
+    padding: 1%;
+    background: whitesmoke;
+    border: solid grey 5px;
+    font-size: 50px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+img {
+    border: solid grey 3px;
+    float: left;
+}
+
+
+.movies{
+    border: solid grey 3px;
+    margin: 10px;
+    background-color: whitesmoke;
+    float: left;
+}
+
+label{
+    font-size: 20px;
+    color: whitesmoke;
+}
